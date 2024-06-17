@@ -1,0 +1,15 @@
+##CODE##
+1. Library is a .cpp file that contains ONLY the implementation of the class.
+2.#include "Library.cpp" is used to include the implementation of the class in the main program.
+3. Create the object file: $g++ -c -o caesar.o caesar.cpp
+4. Create the library file: $ar rcs libcaesar.a caesar.o
+5. Compile the main program: $g++ -o main main.cpp -L. -lcaesar
+6. Run the main program: $./main
+
+7. Go sleep
+8. Wake up
+9. Realize that you forgot to include the header file in the main program.
+10. Add #include "Library.h" in the main program.
+11. Go to the step 3 and repeat the process.
+12. Drink coffee
+13. Go to the next assignment
