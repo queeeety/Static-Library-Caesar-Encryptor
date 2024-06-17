@@ -1,8 +1,7 @@
 #include <iostream>
-#include <dlfcn.h>
-
-using namespace std;
 #include "caesar.cpp"
+using namespace std;
+
 
 int main() {
     // Call the function
